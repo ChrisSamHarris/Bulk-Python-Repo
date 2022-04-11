@@ -10,26 +10,34 @@
 # 5) Create a scoreboard
 # 6) Detect collision with wall
 # 7) Detect collision with tail
-
+import time
 from turtle import Screen, Turtle
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake")
+screen.tracer(0)
+
+starting_positions = [(0, 0), (-20, 0), (-40, 0)]
+
+segments = []
+
+for position in starting_positions:
+    snake_seg = Turtle(shape="square")
+    snake_seg.color("white")
+    snake_seg.penup()
+    snake_seg.goto(position)
+    segments.append(snake_seg)
 
 
-snake_seg1 = Turtle(shape="square")
-snake_seg1.color("white")
-snake_seg1.setx(0)
 
-snake_seg2 = Turtle(shape="square")
-snake_seg2.color("white")
-snake_seg2.setx(-20)
+game_is_on = True
 
-snake_seg3 = Turtle(shape="square")
-snake_seg3.color("white")
-snake_seg3.setx(-40)
-
+while game_is_on:
+    screen.update()
+    time.sleep(0.2)
+    for seg in segments:
+        seg.forward(20)
 
 
 screen.exitonclick()
