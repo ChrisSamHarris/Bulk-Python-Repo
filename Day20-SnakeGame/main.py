@@ -14,6 +14,7 @@ import time
 from turtle import Screen
 from snake import Snake
 from food import Food
+from scoreboard import ScoreBoard
 
 #Screen generation and criteria
 screen = Screen()
@@ -25,6 +26,7 @@ screen.tracer(0)
 #Snake construction and game
 snake = Snake() #Upon init the create snake function will be called
 food = Food()
+scoreboard = ScoreBoard()
 
 screen.listen()
 screen.onkey(snake.up, "Up")
@@ -41,7 +43,14 @@ while game_is_on:
     #Detect collision with food - utilising turtle class method 'distance' - https://docs.python.org/3/library/turtle.html#turtle.distance
     if snake.snake_head.distance(food) < 15:
         print("nom nom nom")
+        scoreboard.increase_score()
         food.refresh()
+
+    #Detect collision with wall
+    if snake.snake_head.xcor() > 280 or snake.snake_head.xcor() < -280 or snake.snake_head.ycor() > 280 or snake.snake_head.ycor() < -280 :
+        scoreboard.game_over()
+        game_is_on = False
+
 
 #Screen termination with click
 screen.exitonclick()
