@@ -11,6 +11,7 @@
 from turtle import Turtle, Screen
 from paddle import Paddle
 from ball import Ball
+from scoreboard import Scoreboard
 import time
 
 pong = Turtle()
@@ -41,22 +42,32 @@ screen.onkey(l_paddle.down, "s")
 #Ball Setup
 ########
 ball = Ball()
+scoreboard = Scoreboard()
 
 
 game_is_on = True
 while game_is_on == True:
-    time.sleep(0)
+    time.sleep(ball.move_speed)
     screen.update()
     ball.move()
 
     #Detect collision with the wall
     if ball.ycor() > 480 or ball.ycor() < -480:
-        ball.bounce()
+        ball.bounce_y()
 
+    #Detect collision with both paddles
+    if ball.distance(r_paddle) < 50 and ball.xcor() > 560 or ball.distance(l_paddle) < 50 and ball.xcor() < -560:
+        ball.bounce_x()
+        print("paddle contact")
 
+    #Detect when right paddle misses
+    if ball.xcor() > 590:
+        ball.reset_position()
+        scoreboard.l_point()
 
-
-
-
+    #Detect when left paddle misses
+    if ball.xcor() < -590:
+        ball.reset_position()
+        scoreboard.r_point()
 
 screen.exitonclick()
