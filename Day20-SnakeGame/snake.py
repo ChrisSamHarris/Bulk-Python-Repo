@@ -26,6 +26,13 @@ class Snake:
         snake_seg.goto(position)
         self.segments.append(snake_seg)
 
+    def reset(self):
+        for seg in self.segments:
+            seg.goto(1500, 1500) #Moves the segements of a dead snake off the screen 
+        self.segments.clear()
+        self.create_snake()
+        self.snake_head = self.segments[0]
+
     def extend(self):
         #Add a new segment to the snake
         self.add_segment(self.segments[-1].position())
@@ -36,8 +43,6 @@ class Snake:
             new_y = self.segments[seg_num - 1].ycor()
             self.segments[seg_num].goto(new_x, new_y)
         self.snake_head.forward(MOVE_DISTANCE)
-
-
 
     def up(self):
         if self.snake_head.heading() != DOWN:
