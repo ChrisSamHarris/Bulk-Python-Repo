@@ -46,17 +46,22 @@ while game_is_on:
         scoreboard.increase_score()
         snake.extend()
         food.refresh()
+        print(scoreboard.score)
 
     #Detect collision with wall
-    if snake.snake_head.xcor() > 280 or snake.snake_head.xcor() < -280 or snake.snake_head.ycor() > 280 or snake.snake_head.ycor() < -280 :
-        scoreboard.reset()
+    if snake.snake_head.xcor() > 285 or snake.snake_head.xcor() < -285 or snake.snake_head.ycor() > 285 or snake.snake_head.ycor() < -285 :
+        scoreboard.reset() #When calling scoreboard.update_scoreboard() in the reset method, the scoreboard doesn't update correctly/ immediately, however it does when called from main.py? 
+        scoreboard.update_scoreboard()
+        snake.reset()
 
     #Detect collision with tail. If head collides with any segment in the tail, trigger game_over
     for segment in snake.segments[1:]: #Slice the list so the snake head is excluded - Checks every segement in the tail in relation to the head
         if snake.snake_head.distance(segment) < 10:
-            scoreboard.reset()
+            scoreboard.reset() #When calling scoreboard.update_scoreboard() in the reset method, the scoreboard doesn't update correctly/ immediately, however it does when called from main.py? 
+            scoreboard.update_scoreboard()
             snake.reset()
 
+#Need to figure out a method to pause / play snake upon death i.e. "Click for a new game?"
 
 #Screen termination with click
 screen.exitonclick()
