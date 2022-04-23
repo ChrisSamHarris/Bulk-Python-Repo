@@ -6,7 +6,9 @@ class ScoreBoard(Turtle): #Note not necessary to parenthesise Turtle() although 
     def __init__(self):
         super().__init__()
         self.score = 0
-        self.high_score = 0 #Need to calculate how to get python to open, read and write files on my local system
+        #self.high_score = 0 #Need to calculate how to get python to open, read and write files on my local system
+        with open("data.txt", mode="r") as data:
+            self.high_score = int(data.read())
         self.hideturtle()
         self.penup()
         self.goto(0, 270)
@@ -16,6 +18,8 @@ class ScoreBoard(Turtle): #Note not necessary to parenthesise Turtle() although 
     def reset(self):
         if self.score > self.high_score:
             self.high_score = self.score
+            with open("data.txt", mode="w") as data:
+                data.write(f"{self.high_score}")
         self.score = 0
     
     def increase_score(self):

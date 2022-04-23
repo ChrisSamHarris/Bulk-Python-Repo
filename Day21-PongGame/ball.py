@@ -10,7 +10,7 @@ class Ball(Turtle):
         self.x_move = 5
         self.y_move = 5
         self.setheading(270)
-        self.move_speed = 0.1
+        self.move_speed = 0
 
     def move(self):
         new_x = self.xcor() + self.x_move #X co-ordinates keep the ball moving forward
