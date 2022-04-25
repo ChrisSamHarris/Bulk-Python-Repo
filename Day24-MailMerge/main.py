@@ -9,7 +9,7 @@
 
 PLACEHOLDER = "[name]"
 
-with open("./Input/Names/invited_names.txt") as names_file:
+with open("./Input/Names/invited_names.txt") as names_file: #Default mode == Read
     names = names_file.readlines() # Returns a list containing each line in the file as a list item
     print(names)
 
