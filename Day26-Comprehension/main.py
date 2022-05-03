@@ -1,3 +1,6 @@
+import random
+import pandas
+
 #List and dictionary comprehension, unqiue to Python and cuts down on the amount of code required 
 
 #Aims to create a word to NATO letter conversion tool 
@@ -36,3 +39,46 @@ numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 result = [num for num in numbers if num%2 == 0]
 print(result)
 
+# =========== Dictionary Comprehension ===========
+#new_dict = {new_key:new_value for item in list}
+#new_dict2 = {new_key:new_value for (key, value) in dict.items()}
+#new_dict3 = {new_key:new_value for (key, value) in dict.items() if test}
+
+names = ['Chris', 'Alex', 'Stephen', 'Caroline', 'Dave']
+student_score = {student:random.randint(1, 100) for student in names}
+print(student_score)
+
+passed_students = {student:score for (student, score) in student_score.items() if score >= 60} #unsure as to why the .items() is required after the dictinary is provided 
+print(passed_students)
+
+#Excercise 1 : Character count in a sentence. 
+sentence = "What is the Airspeed Velocity of an Unladen Swallow?"
+
+result = {word:len(word) for word in sentence.strip("?").split()}
+print(result)
+
+#Excercise 2 : Weathr conversion C to F 
+weather_c = {
+    "Monday": 12,
+    "Tuesday": 14,
+    "Wednesday": 15,
+    "Thursday": 14,
+    "Friday": 21,
+    "Saturday": 22,
+    "Sunday": 24,
+}
+weather_f = {day:(temp * 9/5 + 32) for (day, temp) in weather_c.items()}
+print(weather_f)
+
+#Pandas 
+stu_dict = { 
+    "Name" : ["Chris", "Will", "Ollie"], 
+    "Score" : [82, 80, 51] 
+    }
+
+stu_dataframe = pandas.DataFrame(stu_dict)
+for (index, row) in stu_dataframe.iterrows():
+    print(row)
+    print(row.Score)
+    if row.Name == "Chris":
+        print(f"\n***Chris' Score Is: {row.Score}***\n")
