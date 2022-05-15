@@ -9,3 +9,6 @@ Extra development and understanding has been taken from freeCodeCamp and individ
 Some further useful links:
 https://www.youtube.com/watch?v=Ej_02ICOIgs&t=44s (freeCodeCamp - Python OOP)
 https://www.youtube.com/watch?v=JeznW_7DlB0 (TechWithTim - OOP for Beginners)
+
+Currently Skipping:
+- Days 27 - EOD 31 : Dont find Tkinter interesting or intuitive
