@@ -1,0 +1,34 @@
+{
+    "articles": [
+          {
+            "articleName": "test",
+            "articleLink": "www.test.com",
+            "upvotes": 1
+          },
+          {
+            "environmentName": "sit1",
+            "applications": [
+              "collective-eligibility-service",
+              "energy-callback-service",
+              "energy-incentive-service"
+            ]
+          },
+          {
+            "environmentName": "pre1",
+            "applications": [
+              "collective-eligibility-service",
+              "energy-callback-service",
+              "energy-incentive-service"
+            ]
+          },
+          {
+            "environmentName": "perf1",
+            "applications": [
+              "collective-eligibility-service",
+              "energy-callback-service",
+              "energy-incentive-service"
+            ]
+          }
+        ],
+        "jobName": "devex.run.argo-pipeline-spike"
+      }

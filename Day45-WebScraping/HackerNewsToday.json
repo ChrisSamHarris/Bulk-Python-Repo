@@ -1,0 +1,154 @@
+{
+  "articles": [
+    {
+      "Title": "You need to know what right-half-plane zeros are",
+      "Link": "https://jbconsulting.substack.com/p/you-need-to-know-what-right-half",
+      "Votes": "237 points"
+    },
+    {
+      "Title": "Rulex \u2013 A new, portable, regular expression language",
+      "Link": "https://rulex-rs.github.io/",
+      "Votes": "37 points"
+    },
+    {
+      "Title": "Toxic Productivity",
+      "Link": "https://paperform.co/blog/toxic-productivity/",
+      "Votes": "103 points"
+    },
+    {
+      "Title": "Important PostgreSQL 14 update to avoid silent corruption of indexes",
+      "Link": "https://www.migops.com/blog/2022/06/09/important-postgresql-14-update-to-avoid-silent-corruption-of-indexes/",
+      "Votes": "270 points"
+    },
+    {
+      "Title": "No Army? No Problem: Defending the Home Front in Ancient Greece",
+      "Link": "https://www.historytoday.com/archive/history-matters/no-army-no-problem",
+      "Votes": "22 points"
+    },
+    {
+      "Title": "Twitter plans to comply with Musk\u2019s demands for data",
+      "Link": "https://www.forbes.com/sites/abrambrown/2022/06/09/twitter-elon-musk-bots-data-firehose-api/",
+      "Votes": "214 points"
+    },
+    {
+      "Title": "Why software engineers like woodworking",
+      "Link": "https://www.zainrizvi.io/blog/why-software-engineers-like-woodworking/",
+      "Votes": "188 points"
+    },
+    {
+      "Title": "Always Own Your Platform (2019)",
+      "Link": "http://www.alwaysownyourplatform.com/",
+      "Votes": "279 points"
+    },
+    {
+      "Title": "Nintendo's big piracy case is a sad story",
+      "Link": "https://kotaku.com/nintendo-piracy-case-bowser-xecuter-team-prison-pirate-1849026479",
+      "Votes": "277 points"
+    },
+    {
+      "Title": "In defense of cryptocurrency",
+      "Link": "https://blog.cryptographyengineering.com/2022/06/09/in-defense-of-cryptocurrency/",
+      "Votes": "174 points"
+    },
+    {
+      "Title": "Sylpheed email client: open source, cross-platform, lightweight, user-friendly",
+      "Link": "https://sylpheed.sraoss.jp/en/",
+      "Votes": "21 points"
+    },
+    {
+      "Title": "Coinbase employees petition to remove execs",
+      "Link": "https://web.archive.org/web/20220609202836/https://mirror.xyz/0x58E3a8Bc8CBFC10AC2972Fb9d0cF359E21eae56b/ZIO--5ywx1z-aKs0KCQ2PeTNutVKune7zhA1D09R0q0",
+      "Votes": "176 points"
+    },
+    {
+      "Title": "Cranelift, Part 4: A New Register Allocator",
+      "Link": "https://cfallin.org/blog/2022/06/09/cranelift-regalloc2/",
+      "Votes": "116 points"
+    },
+    {
+      "Title": "From Python to NumPy (2017)",
+      "Link": "https://www.labri.fr/perso/nrougier/from-python-to-numpy/",
+      "Votes": "95 points"
+    },
+    {
+      "Title": "Procedural Tree Generator",
+      "Link": "https://simblob.blogspot.com/2022/06/procedural-tree-generator.html",
+      "Votes": "19 points"
+    },
+    {
+      "Title": "Women and the History of Samuel Pepys's Diary",
+      "Link": "https://www.cambridge.org/core/journals/historical-journal/article/women-and-the-history-of-samuel-pepyss-diary/8470046189D88A8805F8B1ACC886475F",
+      "Votes": "15 points"
+    },
+    {
+      "Title": "Dont think of price, think of cost per use",
+      "Link": "https://sergionajera.com/dont-think-of-price-think-of-cost-per-use",
+      "Votes": "94 points"
+    },
+    {
+      "Title": "OneTrust lays off 25% Workforce",
+      "Link": "https://layoffstracker.com/onetrust-lays-off-25-workforce-around-900-employees/",
+      "Votes": "6 points"
+    },
+    {
+      "Title": "Ways that animals perceive the world",
+      "Link": "https://www.newyorker.com/magazine/2022/06/13/the-strange-and-secret-ways-that-animals-perceive-the-world-ed-yong-immense-world-tom-mustill-how-to-speak-whale",
+      "Votes": "48 points"
+    },
+    {
+      "Title": "Meta sued for social media addiction caused by its algorithm",
+      "Link": "https://www.protocol.com/section-230-meta-addiction",
+      "Votes": "24 points"
+    },
+    {
+      "Title": "Reduced air pollution leads to higher crop yields",
+      "Link": "https://www.technologynetworks.com/applied-sciences/news/reduced-air-pollution-leads-to-higher-crop-yields-362214",
+      "Votes": "142 points"
+    },
+    {
+      "Title": "Quantum chip takes microseconds to do task that takes a supercomputer 9k years",
+      "Link": "https://singularityhub.com/2022/06/07/a-photonic-quantum-device-took-microseconds-to-do-a-task-a-conventional-computer-would-spend-9000-years-on/",
+      "Votes": "79 points"
+    },
+    {
+      "Title": "I killed my startup",
+      "Link": "https://k1nz.substack.com/p/why-i-killed-my-startup",
+      "Votes": "144 points"
+    },
+    {
+      "Title": "Show HN: Tasqueue \u2013 A simple, customisable distributed job/worker in Go",
+      "Link": "https://github.com/kalbhor/Tasqueue",
+      "Votes": "49 points"
+    },
+    {
+      "Title": "I Resurrected My Dutch Movie Review Site from 2003",
+      "Link": "https://louwrentius.com/i-resurrected-my-dutch-movie-review-site-from-2003.html",
+      "Votes": "62 points"
+    },
+    {
+      "Title": "ZeroTier Business SSO",
+      "Link": "https://www.zerotier.com/2022/06/09/zerotier-business-sso-is-here-and-so-is-our-new-pricing/",
+      "Votes": "89 points"
+    },
+    {
+      "Title": "To Catch a Beat (2011)",
+      "Link": "https://www.newyorker.com/magazine/2011/10/10/to-catch-a-beat",
+      "Votes": "12 points"
+    },
+    {
+      "Title": "What makes a good research proposal?",
+      "Link": "https://tratt.net/laurie/blog/2022/what_makes_a_good_research_proposal.html",
+      "Votes": "35 points"
+    },
+    {
+      "Title": "Hexwords: Hex colors that are similar to words",
+      "Link": "https://hexwords.netlify.app/",
+      "Votes": "721 points"
+    },
+    {
+      "Title": "Gitsign",
+      "Link": "https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa",
+      "Votes": "92 points"
+    }
+  ]
+}
