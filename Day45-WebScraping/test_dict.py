@@ -5,12 +5,13 @@ import json
 ## Scrape the hackernews website 
 response = requests.get("https://news.ycombinator.com/")
 hacker_news = response.text
+print(hacker_news)
 
 soup = BeautifulSoup(hacker_news, "html.parser")
 
-
 ### soup.find will retrieve a single occurance  | find_all will recieve all 
-articles = soup.find_all(name='a', class_="titlelink")
+articles = soup.find_all("a", rel="noreferrer")
+print(articles)
 
 # article_text = article.getText() #Requires a For Loop 
 # article_link = article.get("href") #Requires a For Loop 
@@ -18,8 +19,10 @@ article_titles = []
 article_links = []
 for item in articles:
     title = item.getText()
+    print(title)
     article_titles.append(title)
     link = item.get('href')
+    print(link)
     article_links.append(link)
 
 article_upvote_raw = [score.getText() for score in soup.find_all(name='span', class_='score')]

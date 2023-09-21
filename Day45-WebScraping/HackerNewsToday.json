@@ -1,154 +1,144 @@
 {
-  "articles": [
-    {
-      "Title": "You need to know what right-half-plane zeros are",
-      "Link": "https://jbconsulting.substack.com/p/you-need-to-know-what-right-half",
-      "Votes": "237 points"
-    },
-    {
-      "Title": "Rulex \u2013 A new, portable, regular expression language",
-      "Link": "https://rulex-rs.github.io/",
-      "Votes": "37 points"
-    },
-    {
-      "Title": "Toxic Productivity",
-      "Link": "https://paperform.co/blog/toxic-productivity/",
-      "Votes": "103 points"
-    },
-    {
-      "Title": "Important PostgreSQL 14 update to avoid silent corruption of indexes",
-      "Link": "https://www.migops.com/blog/2022/06/09/important-postgresql-14-update-to-avoid-silent-corruption-of-indexes/",
-      "Votes": "270 points"
-    },
-    {
-      "Title": "No Army? No Problem: Defending the Home Front in Ancient Greece",
-      "Link": "https://www.historytoday.com/archive/history-matters/no-army-no-problem",
-      "Votes": "22 points"
-    },
-    {
-      "Title": "Twitter plans to comply with Musk\u2019s demands for data",
-      "Link": "https://www.forbes.com/sites/abrambrown/2022/06/09/twitter-elon-musk-bots-data-firehose-api/",
-      "Votes": "214 points"
-    },
-    {
-      "Title": "Why software engineers like woodworking",
-      "Link": "https://www.zainrizvi.io/blog/why-software-engineers-like-woodworking/",
-      "Votes": "188 points"
-    },
-    {
-      "Title": "Always Own Your Platform (2019)",
-      "Link": "http://www.alwaysownyourplatform.com/",
-      "Votes": "279 points"
-    },
-    {
-      "Title": "Nintendo's big piracy case is a sad story",
-      "Link": "https://kotaku.com/nintendo-piracy-case-bowser-xecuter-team-prison-pirate-1849026479",
-      "Votes": "277 points"
-    },
-    {
-      "Title": "In defense of cryptocurrency",
-      "Link": "https://blog.cryptographyengineering.com/2022/06/09/in-defense-of-cryptocurrency/",
-      "Votes": "174 points"
-    },
-    {
-      "Title": "Sylpheed email client: open source, cross-platform, lightweight, user-friendly",
-      "Link": "https://sylpheed.sraoss.jp/en/",
-      "Votes": "21 points"
-    },
-    {
-      "Title": "Coinbase employees petition to remove execs",
-      "Link": "https://web.archive.org/web/20220609202836/https://mirror.xyz/0x58E3a8Bc8CBFC10AC2972Fb9d0cF359E21eae56b/ZIO--5ywx1z-aKs0KCQ2PeTNutVKune7zhA1D09R0q0",
-      "Votes": "176 points"
-    },
-    {
-      "Title": "Cranelift, Part 4: A New Register Allocator",
-      "Link": "https://cfallin.org/blog/2022/06/09/cranelift-regalloc2/",
-      "Votes": "116 points"
-    },
-    {
-      "Title": "From Python to NumPy (2017)",
-      "Link": "https://www.labri.fr/perso/nrougier/from-python-to-numpy/",
-      "Votes": "95 points"
-    },
-    {
-      "Title": "Procedural Tree Generator",
-      "Link": "https://simblob.blogspot.com/2022/06/procedural-tree-generator.html",
-      "Votes": "19 points"
-    },
-    {
-      "Title": "Women and the History of Samuel Pepys's Diary",
-      "Link": "https://www.cambridge.org/core/journals/historical-journal/article/women-and-the-history-of-samuel-pepyss-diary/8470046189D88A8805F8B1ACC886475F",
-      "Votes": "15 points"
-    },
-    {
-      "Title": "Dont think of price, think of cost per use",
-      "Link": "https://sergionajera.com/dont-think-of-price-think-of-cost-per-use",
-      "Votes": "94 points"
-    },
-    {
-      "Title": "OneTrust lays off 25% Workforce",
-      "Link": "https://layoffstracker.com/onetrust-lays-off-25-workforce-around-900-employees/",
-      "Votes": "6 points"
-    },
-    {
-      "Title": "Ways that animals perceive the world",
-      "Link": "https://www.newyorker.com/magazine/2022/06/13/the-strange-and-secret-ways-that-animals-perceive-the-world-ed-yong-immense-world-tom-mustill-how-to-speak-whale",
-      "Votes": "48 points"
-    },
-    {
-      "Title": "Meta sued for social media addiction caused by its algorithm",
-      "Link": "https://www.protocol.com/section-230-meta-addiction",
-      "Votes": "24 points"
-    },
-    {
-      "Title": "Reduced air pollution leads to higher crop yields",
-      "Link": "https://www.technologynetworks.com/applied-sciences/news/reduced-air-pollution-leads-to-higher-crop-yields-362214",
-      "Votes": "142 points"
-    },
-    {
-      "Title": "Quantum chip takes microseconds to do task that takes a supercomputer 9k years",
-      "Link": "https://singularityhub.com/2022/06/07/a-photonic-quantum-device-took-microseconds-to-do-a-task-a-conventional-computer-would-spend-9000-years-on/",
-      "Votes": "79 points"
-    },
-    {
-      "Title": "I killed my startup",
-      "Link": "https://k1nz.substack.com/p/why-i-killed-my-startup",
-      "Votes": "144 points"
-    },
-    {
-      "Title": "Show HN: Tasqueue \u2013 A simple, customisable distributed job/worker in Go",
-      "Link": "https://github.com/kalbhor/Tasqueue",
-      "Votes": "49 points"
-    },
-    {
-      "Title": "I Resurrected My Dutch Movie Review Site from 2003",
-      "Link": "https://louwrentius.com/i-resurrected-my-dutch-movie-review-site-from-2003.html",
-      "Votes": "62 points"
-    },
-    {
-      "Title": "ZeroTier Business SSO",
-      "Link": "https://www.zerotier.com/2022/06/09/zerotier-business-sso-is-here-and-so-is-our-new-pricing/",
-      "Votes": "89 points"
-    },
-    {
-      "Title": "To Catch a Beat (2011)",
-      "Link": "https://www.newyorker.com/magazine/2011/10/10/to-catch-a-beat",
-      "Votes": "12 points"
-    },
-    {
-      "Title": "What makes a good research proposal?",
-      "Link": "https://tratt.net/laurie/blog/2022/what_makes_a_good_research_proposal.html",
-      "Votes": "35 points"
-    },
-    {
-      "Title": "Hexwords: Hex colors that are similar to words",
-      "Link": "https://hexwords.netlify.app/",
-      "Votes": "721 points"
-    },
-    {
-      "Title": "Gitsign",
-      "Link": "https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa",
-      "Votes": "92 points"
-    }
-  ]
+    "articles": [
+        {
+            "Title": "OpenBSD/ARM64 on Hetzner Cloud",
+            "Link": "https://www.undeadly.org/cgi?action=article;sid=20230921073556",
+            "Votes": "44 points"
+        },
+        {
+            "Title": "Terry Tao's generals (2012)",
+            "Link": "https://web.math.princeton.edu/generals/tao_terence",
+            "Votes": "218 points"
+        },
+        {
+            "Title": "Total cholesterol and mortality by sex and age:study of 12.8M adults",
+            "Link": "https://www.nature.com/articles/s41598-018-38461-y",
+            "Votes": "39 points"
+        },
+        {
+            "Title": "Introduction to Linux interfaces for virtual networking (2018)",
+            "Link": "https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking",
+            "Votes": "94 points"
+        },
+        {
+            "Title": "Install Windows the Arch Linux Way",
+            "Link": "https://christitus.com/install-windows-the-arch-linux-way/",
+            "Votes": "190 points"
+        },
+        {
+            "Title": "Erlang/OTP 26.1 Released",
+            "Link": "https://erlangforums.com/t/erlang-otp-26-1-released/2886",
+            "Votes": "27 points"
+        },
+        {
+            "Title": "UK Parliament undermined the privacy, security, freedom of all internet users",
+            "Link": "https://www.eff.org/deeplinks/2023/09/today-uk-parliament-undermined-privacy-security-and-freedom-all-internet-users",
+            "Votes": "306 points"
+        },
+        {
+            "Title": "Car allergic to vanilla ice cream (2000)",
+            "Link": "http://www.cs.cmu.edu/~wkw/humour/carproblems.txt",
+            "Votes": "1407 points"
+        },
+        {
+            "Title": "How Equifax Was Breached in 2017",
+            "Link": "https://blog.0x7d0.dev/history/how-equifax-was-breached-in-2017/",
+            "Votes": "121 points"
+        },
+        {
+            "Title": "Harlequin: DuckDB IDE for the terminal",
+            "Link": "https://harlequin.sh/",
+            "Votes": "266 points"
+        },
+        {
+            "Title": "India's biggest tech centers named as cyber crime hotspots",
+            "Link": "https://www.theregister.com/2023/09/21/india_cybercrime_trends_report/",
+            "Votes": "14 points"
+        },
+        {
+            "Title": "Grouping digits in SQL",
+            "Link": "http://peter.eisentraut.org/blog/2023/09/20/grouping-digits-in-sql",
+            "Votes": "45 points"
+        },
+        {
+            "Title": "Cache headers could probably be more aggressive",
+            "Link": "https://www.macarthur.me/posts/more-aggressive-cache-headers",
+            "Votes": "41 points"
+        },
+        {
+            "Title": "MongoDB\u2019s New Query Engine",
+            "Link": "https://laplab.me/posts/inside-new-query-engine-of-mongodb/",
+            "Votes": "6 points"
+        },
+        {
+            "Title": "NASA\u2019s New Shortcut to Fusion Power (2022)",
+            "Link": "https://spectrum.ieee.org/lattice-confinement-fusion",
+            "Votes": "27 points"
+        },
+        {
+            "Title": "How Container Networking Works: Practical Explanation",
+            "Link": "https://iximiuz.com/en/posts/container-networking-is-simple/",
+            "Votes": "33 points"
+        },
+        {
+            "Title": "Fine-grained caching strategies of dynamic queries",
+            "Link": "https://jensrantil.github.io/posts/fast-aggregate-queries-on-dynamic-data/",
+            "Votes": "55 points"
+        },
+        {
+            "Title": "How to evaluate a product roadmap, for engineers",
+            "Link": "https://stephen.fm/how-to-evaluate-a-product-roadmap/",
+            "Votes": "109 points"
+        },
+        {
+            "Title": "Creating a fake Indian cricket league",
+            "Link": "https://www.si.com/betting/2023/09/15/fake-indian-cricket-league-daily-cover",
+            "Votes": "18 points"
+        },
+        {
+            "Title": "Meticulous: An FPGA-Based Main Memory Emulator for System Software Studies",
+            "Link": "https://arxiv.org/abs/2309.06565",
+            "Votes": "36 points"
+        },
+        {
+            "Title": "Show HN: Mana Pool \u2013 Market for Magic Cards",
+            "Link": "https://manapool.com/",
+            "Votes": "114 points"
+        },
+        {
+            "Title": "Health risks of travel in early-modern Britain",
+            "Link": "https://dralun.wordpress.com/2023/02/17/the-health-risks-of-travel-in-early-modern-britain/",
+            "Votes": "50 points"
+        },
+        {
+            "Title": "Linux gives up on 6-year LTS kernels, says they\u2019re too much work",
+            "Link": "https://arstechnica.com/gadgets/2023/09/linux-gives-up-on-6-year-lts-thats-fine-for-pcs-bad-for-android/",
+            "Votes": "56 points"
+        },
+        {
+            "Title": "Toyota Research claims breakthrough in teaching robots new behaviors",
+            "Link": "https://www.tri.global/news/toyota-research-institute-unveils-breakthrough-teaching-robots-new-behaviors",
+            "Votes": "195 points"
+        },
+        {
+            "Title": "Organic Maps: An open-source maps app that doesn't suck",
+            "Link": "https://hardfault.life/p/organic-maps-review",
+            "Votes": "345 points"
+        },
+        {
+            "Title": "Show HN: ElectricSQL, Postgres to SQLite active-active sync for local-first apps",
+            "Link": "https://electric-sql.com/",
+            "Votes": "163 points"
+        },
+        {
+            "Title": "New study disproves Leonardo da Vinci's 'rule of trees'",
+            "Link": "https://phys.org/news/2023-09-leonardo-da-vinci-trees.html",
+            "Votes": "60 points"
+        },
+        {
+            "Title": "XML is better than YAML \u2013\u00a0Hear me out",
+            "Link": "https://changelog.com/posts/xml-better-than-yaml",
+            "Votes": "545 points"
+        }
+    ]
 }
