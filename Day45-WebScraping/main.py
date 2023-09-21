@@ -13,23 +13,22 @@ soup = BeautifulSoup(hacker_news, "html.parser")
 
 ### soup.find will retrieve a single occurance  | find_all will recieve all 
 articles = soup.find_all("a", rel="noreferrer")
-print(articles)
 
-# article_text = article.getText() #Requires a For Loop 
-# article_link = article.get("href") #Requires a For Loop 
+# Human readable output for the CLI - Optional
 article_titles = []
 article_links = []
 for item in articles:
     title = item.getText()
-    print(title)
     article_titles.append(title)
+    print(title)
+
     link = item.get('href')
-    print(link)
     article_links.append(link)
+    print(link)
+
+    print('\n')
 
 article_upvote_raw = [score.getText() for score in soup.find_all(name='span', class_='score')]
-article_upvote_raw.append("X Points") ##Upvotes added, initally an issue as for some reason the scrape only brings 29 out of 30 values 
-
 article_upvote = [int(score.getText().split()[0]) for score in soup.find_all(name='span', class_='score')]
 
 article_dict = {"articles" : [] }
